@@ -1,5 +1,5 @@
 # realtime-face-emotion-recognition
-Creating a realtime face emotion recognition 
+Real time **emotion recognition** for person's face using opencv for face detection from the video source and the model is trained on FER2013 dataset using tensorflow and transefer learning, the data set consistis of seven classes (happy, sad, angry, disgusted, surprized, fearful, and neutral).
 ## Table of contents
 - [Installation](#Installation)
 - [Technologies Used in this project](#Technologies)
