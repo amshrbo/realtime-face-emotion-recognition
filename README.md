@@ -26,7 +26,7 @@ __Note that the data has lots of pitfalls:__
     <img src="./assets/sample_imgs_fer2013.png" alt="imbalanced" width="750" height="427"/>
 
 ### Project Roadmap
-__pass__
+![roadmap](./assets/realtime_emotion_detection_digram.png)
 
 ## Installation
 - Run It using docker You just simply 
