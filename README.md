@@ -1,13 +1,32 @@
 # realtime-face-emotion-recognition
-Real time **emotion recognition** for person's face using opencv for face detection from the video source and the model is trained on FER2013 dataset using tensorflow and transefer learning, the data set consistis of seven classes (happy, sad, angry, disgusted, surprized, fearful, and neutral).
+__Done into two main steps__:         
+> 1. __Face-detection:__ from the video source using OpenCV and haarcascade algorithm.
+> 2. __Emotion recognition:__              
+    - __First solution:__ Using a model trained on [FER-2013 dataset](https://www.kaggle.com/msambare/fer2013) with Tensorflow.         
+    - __Second solution:__ I've used [DeepFace package](https://github.com/serengil/deepface) as a prefabricated solution.      
+
 ## Table of contents
-- [Installation](#Installation)
-- [Technologies Used in this project](#Technologies)
-- [The dataset and their challenges](#Dataset)
-- [My strategy for solving this problem](#strategy)
-- [What did I learn from this project](#what-did-I-learn)
+- [The dataset and its challenges](#dataset)
+- [High level roadmap for the project](#project-roadmap)
+- [Installation](#installation)
+- [Technologies Used in this project](#technologies)
+- [What did I learn from this project](#what-did-i-learn)
 - [LICENCSE](#license)
 
+### Dataset
+[__FER 2013__](https://www.kaggle.com/msambare/fer2013) Dataset:
+> The data consists of 48x48 pixel grayscale images of faces. The dataset consists of 7 unblanced classes    
+
+__Note that the data has lots of pitfalls:__ 
+> __So don't expect a high accuracy on training I got about 70% on the validation set__
+
+- __Imbalanced classes__: you can notice from the below charts that the `happy` class represents __25%__ of the data               
+    <img src="./assets/imbalncing_charts.png" alt="imbalanced" width="750" height="427"/>
+- Some other problems exist in the dataset like __occulsion, contrast variation and Intra class variation__:
+    <img src="./assets/sample_imgs_fer2013.png" alt="imbalanced" width="750" height="427"/>
+
+### Project Roadmap
+__pass__
 
 ## Installation
 - Run It using docker You just simply 
@@ -19,24 +38,6 @@ Real time **emotion recognition** for person's face using opencv for face detect
 - [Tensorflow 2](https://github.com/tensorflow/tensorflow)
 - [opencv](https://github.com/opencv)
 - Python
-
-### Dataset
-Here I'm gonna use the [FER 2013](https://www.kaggle.com/msambare/fer2013) Dataset 
-
-#### Pitfalls of this dataset
-1. Imbalanced:
-    - Classes don't have the same number of Imgs as the most dominanet class is the happy class
-2. Intra class variation
-    - There are different type of Images like photos, paintings, and cartoon
-3. Contrast variation
-    - There are different levels of contrast in the images, going from too dark to too bright images
-4. Eyeglasses
-5. Occulsion
-    - Like if someone convring his face with hands
-6. Outliers 
-### Stratgey
-- Using opencv for detecting faces
-- Transefer learning
 
 ### What did I learn
 - Working with transefer learning 
