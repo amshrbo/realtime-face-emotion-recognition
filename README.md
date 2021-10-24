@@ -8,7 +8,7 @@ __Done into two main steps__:
 ## Table of contents
 - [The dataset and its challenges](#dataset)
 - [High level roadmap for the project](#project-roadmap)
-- [Installation](#installation)
+- [The mentioned solutions and demos for how to tackle the problem](problem-solutions-and-demos)
 - [Technologies Used in this project](#technologies)
 - [What did I learn from this project](#what-did-i-learn)
 - [LICENCSE](#license)
@@ -28,22 +28,32 @@ __Note that the data has lots of pitfalls:__
 ### Project Roadmap
 ![roadmap](./assets/realtime_emotion_detection_digram.png)
 
-## Installation
-- Run It using docker You just simply 
+### Problem solutions and demos
+__Solutions:__                     
+- [Realtime emotion recognition using the trained model](./fer_solution/realtime_emotion_recognition.ipynb)
+- [Realtime emotion recognition using DeepFace](./deepFace_solution/realtimeFaceEmotionRecognition_using_deepface.ipynb)
 
-1. `Docker pull 'The DockerHub link For the project'`
-1. `docker run -it ImageName`
+__Demos:__              
+- [Emotion recognition Model training in the fer-2013 dataset](./fer_solution/emotion_recognition_model_training)
+- [Realtime face detection demo](./src/realtime_face_detection_demo.ipynb)
+- [Emotion recognition for multiple faces in a snigle image demo](./fer_solution/demo_for_multiple_faces_emotion_recognition.ipynb)
 
 ### Technologies 
-- [Tensorflow 2](https://github.com/tensorflow/tensorflow)
-- [opencv](https://github.com/opencv)
-- Python
-
-### What did I learn
-- Working with transefer learning 
-- Data Augmentation
+- [Tensorflow 2.0](https://github.com/tensorflow/tensorflow)
+- __Keras__
+- [OpenCV](https://github.com/opencv)
+- __Python__
+- [DeepFace](https://github.com/serengil/deepface)
 
 ### Useful resources
-- Here are some Useful resiources you can use
+- Fer-2013 dataset [link in kaggle](https://www.kaggle.com/msambare/fer2013)
+- Realtime emotino recognition hypertuning mobilenet model [youtube video](https://www.youtube.com/watch?v=fkgpvkqcoJc)
+- [PAZ a GitHub repo which contains different applications on computer vision](https://github.com/oarriaga/paz)
+
+### Contacts
+> - [LinkedIn](https://www.linkedin.com/in/amshrbo)
+> - Email: _amshrbo@gmail.com_
+> - [Twitter](https://twitter.com/amshrbo)
+
 ### LICENSE
 [***GNU GPL V3***](./LICENSE)
