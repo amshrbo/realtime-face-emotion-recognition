@@ -8,9 +8,10 @@ __Done into two main steps__:
 ## Table of contents
 - [The dataset and its challenges](#dataset)
 - [High level roadmap for the project](#project-roadmap)
-- [The mentioned solutions and demos for how to tackle the problem](problem-solutions-and-demos)
+- [The mentioned solutions and demos for how to tackle the problem](#problem-solutions-and-demos)
 - [Technologies Used in this project](#technologies)
-- [What did I learn from this project](#what-did-i-learn)
+- [Some useful resources](#useful-resources)
+- [For more info and getting in touch](#Contacts)
 - [LICENCSE](#license)
 
 ### Dataset
